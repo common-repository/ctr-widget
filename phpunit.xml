@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit 
+	colors="true" 
+	stopOnFailure="false" 
+	bootstrap="D:/Dropbox/Code/_Tools/UniformServer/www/wordpress.dev/wordpress-tests/bootstrap.php">
+    backupGlobals="false"
+	<testsuites>
+		<testsuite name="CTRWidget">
+            <directory>tests</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>
